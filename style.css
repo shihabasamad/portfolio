@@ -1,0 +1,112 @@
+:root{
+  --text:#111;
+  --muted:#555;
+  --line:#e6e6e6;
+  --bg:#fff;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.55;
+}
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 28px 18px 60px;
+}
+
+header{
+  padding: 10px 0 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+h1{
+  margin: 0 0 6px;
+  font-size: 32px;
+  letter-spacing: -0.2px;
+}
+
+.subtitle{
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.links a{
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+  margin-right: 12px;
+}
+
+.section{
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.section h2{
+  margin: 0 0 10px;
+  font-size: 18px;
+  letter-spacing: -0.1px;
+}
+
+.badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap: 8px;
+}
+
+.badge{
+  border: 1px solid var(--line);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.project{
+  padding: 14px 0;
+}
+
+.project h3{
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.meta{
+  color: var(--muted);
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.project p{
+  margin: 6px 0;
+}
+
+.project ul{
+  margin: 8px 0 0 18px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.grid img{
+  width:100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+footer{
+  margin-top: 22px;
+  color: var(--muted);
+  font-size: 13px;
+}
