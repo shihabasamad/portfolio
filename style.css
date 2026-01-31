@@ -134,13 +134,15 @@ header{
   border-radius: 999px;
   font-size: 13px;
   color: #1e40af;
-  background: rgba(37,99,235,0.06);
+  background: rgba(96,165,250,0.08);
+  color: var(--text);
 }
 
 .badge.key{
-  border: 1px solid rgba(37,99,235,0.22);
-  color: #1e40af;
-  background: rgba(37,99,235,0.06);
+  border: 1px solid rgba(96,165,250,0.22);
+  background: rgba(15,23,42,0.75);
+  color: rgba(229,231,235,0.92);
+  box-shadow: 0 0 0 1px rgba(96,165,250,0.06) inset
 }
 
 .project{
