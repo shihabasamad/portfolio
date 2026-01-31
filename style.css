@@ -45,12 +45,13 @@ header{
 }
 
 .avatar{
-  width:130px;
-  height:130px;
+  width:180px;
+  height:180px;
   border-radius: 999px;
   object-fit: cover;
   border: 3px solid rgba(37,99,235,0.25);
 }
+
 
 .titleblock h1{
   margin: 0 0 4px;
