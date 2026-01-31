@@ -1,19 +1,19 @@
 :root{
-  --text:#111827;
-  --muted:#4b5563;
-  --line:#e5e7eb;
-  --bg:#ffffff;
-  --card:#f9fafb;
-  --accent:#2563eb;   /* subtle blue */
-  --accent2:#0ea5e9;  /* soft cyan */
+  --text:#e5e7eb;        /* main text */
+  --muted:#9ca3af;       /* secondary text */
+  --line:#1f2933;        /* dividers */
+  --bg:#0b1220;          /* page background */
+  --card:#0f172a;        /* sections/cards */
+  --accent:#60a5fa;      /* blue accent */
+  --accent2:#38bdf8;     /* secondary accent */
 }
 
 *{box-sizing:border-box}
 body{
   margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  color:var(--text);
-  background:var(--bg);
+  background: var(--bg);
+  color: var(--text);
   line-height:1.55;
 }
 
@@ -27,6 +27,7 @@ body{
 header{
   padding: 12px 0 18px;
   border-bottom: 1px solid var(--line);
+  background: transparent;
 }
 
 .header-grid{
@@ -49,7 +50,7 @@ header{
   height:180px;
   border-radius: 999px;
   object-fit: cover;
-  border: 3px solid rgba(37,99,235,0.25);
+  border: 3px solid rgba(96,165,250,0.35);
 }
 
 
@@ -98,20 +99,21 @@ header{
   align-items:center;
   padding: 7px 12px;
   border-radius: 999px;
-  border: 1px solid rgba(37,99,235,0.22);
-  background: rgba(37,99,235,0.06);
-  color: #1e40af;
+  border: 1px solid rgba(96,165,250,0.25);
+  background: rgba(96,165,250,0.08);
+  color: var(--text);
   font-size: 13px;
   text-decoration: none;
 }
 
 .links a:hover{
   border-color: rgba(37,99,235,0.35);
-  background: rgba(37,99,235,0.10);
+  background: rgba(96,165,250,0.14);
 }
 .section{
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
+  background: transparent;
 }
 
 .section h2{
@@ -143,6 +145,7 @@ header{
 
 .project{
   padding: 14px 0;
+  background: transparent;
 }
 
 .project h3{
