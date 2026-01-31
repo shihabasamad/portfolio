@@ -1,25 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Md Shihab As Samad | Power BI & Reporting Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
 
-  <h1>Md Shihab As Samad</h1>
-  <h2>Power BI / Reporting (MIS/MI) Analyst</h2>
+    <header>
+      <h1>Md Shihab As Samad</h1>
+      <p class="subtitle">
+        Power BI / Reporting (MIS/MI) Analyst • SQL • KPI Dashboards • PL-300 Certified
+      </p>
+      <p class="subtitle">
+        Specialising in SQL-driven reporting, KPI dashboards, and operational data analysis.
+      </p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/shihab-as-samad-1507a317b" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/shihabasamad" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="mailto:shihabassamad@gmail.com">Email</a>
+      </div>
+    </header>
 
-  <p>
-    Specialising in SQL-driven reporting, KPI dashboards, and operational data analysis.
-    Experienced in building Power BI dashboards that support management decision-making.
-  </p>
+    <section class="section">
+      <h2>Core Skills</h2>
+      <div class="badges">
+        <span class="badge">Power BI (DAX, Power Query, Data Modeling, RLS)</span>
+        <span class="badge">SQL (CTEs, Joins, Window Functions)</span>
+        <span class="badge">MIS / MI Reporting</span>
+        <span class="badge">KPI Design</span>
+        <span class="badge">Data Cleaning & Validation</span>
+        <span class="badge">Excel</span>
+        <span class="badge">Stakeholder Reporting</span>
+        <span class="badge">Dashboard Performance</span>
+        <span class="badge">Data Quality Checks</span>
+      </div>
+    </section>
 
-  <p>
-    <a href="https://www.linkedin.com/in/shihab-as-samad-1507a317b" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/shihabasamad" target="_blank">GitHub</a> |
-    <a href="mailto:shihabassamad@gmail.com">Email</a>
-  </p>
+    <section class="section">
+      <h2>Projects</h2>
 
+      <div class="project" id="ber">
+        <h3>Building Energy Rating (BER) Performance Analysis</h3>
+        <p class="meta">Power BI • SQL • Excel • 1M+ dwellings • 200+ features</p>
+        <p><strong>Objective:</strong> Identify key BER and CO2 drivers and support targeted retrofit recommendations.</p>
+        <p><strong>Summary:</strong> Performed large-scale analysis to understand performance drivers and segment worst-performing dwellings for improvement planning.</p>
+        <ul>
+          <li>Identified key drivers including insulation, build era, heating systems, and U-values.</li>
+          <li>Segmented the worst-performing 20% and prepared region-specific retrofit recommendations.</li>
+        </ul>
+        <div class="grid">
+          <!-- Add screenshots later in /assets and update src paths -->
+          <!-- <img src="assets/ber_1.png" alt="BER dashboard overview"> -->
+          <!-- <img src="assets/ber_2.png" alt="BER dashboard details"> -->
+        </div>
+      </div>
+
+      <div class="project" id="seo">
+        <h3>SEO Audit & Web Performance Dashboard</h3>
+        <p class="meta">Power BI • Screaming Frog • 10K+ URLs</p>
+        <p><strong>Objective:</strong> Track website health KPIs and prioritise technical fixes to improve visibility and performance.</p>
+        <ul>
+          <li>Built a Power BI dashboard to monitor indexability, metadata quality, page depth, and performance signals.</li>
+          <li>Identified 21% crawl budget waste and prioritised high-impact fixes.</li>
+        </ul>
+        <div class="grid">
+          <!-- <img src="assets/seo_1.png" alt="SEO dashboard overview"> -->
+        </div>
+      </div>
+
+      <div class="project" id="rail">
+        <h3>Irish Rail Passenger Inquiry Reporting</h3>
+        <p class="meta">Excel • Reporting • 100+ inquiries</p>
+        <p><strong>Objective:</strong> Reduce recurring passenger confusion through clearer information delivery.</p>
+        <ul>
+          <li>Structured 100+ inquiries into reporting categories and identified delays and platform confusion as top issues.</li>
+          <li>Proposed targeted digital tools and signage enhancements to address communication gaps.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <footer>
+      © <span id="year"></span> Md Shihab As Samad • Power BI / Reporting (MIS/MI) Analyst
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
