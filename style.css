@@ -25,7 +25,7 @@ body{
 }
 
 header{
-  padding: 22px 0 28px;
+  padding: 12px 0 18px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -38,7 +38,10 @@ header{
 }
 
 .profile{
-  align-items: flex-start;
+  display:flex;
+  gap:14px;
+  align-items:center;
+  min-width: 280px;
 }
 
 .avatar{
