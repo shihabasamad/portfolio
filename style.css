@@ -356,5 +356,54 @@ footer{
   margin: 10px 0 6px;
 }
 
+.interactive-placeholder {
+  margin-top: 1rem;
+  border: 1px dashed rgba(120, 150, 255, 0.4);
+  border-radius: 14px;
+  padding: 2rem;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 30, 60, 0.4),
+    rgba(10, 15, 30, 0.6)
+  );
+}
+
+.placeholder-content h3 {
+  margin-bottom: 0.5rem;
+}
+
+.placeholder-content p {
+  color: #bfc6d4;
+  max-width: 600px;
+}
+.screenshots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.screenshot-card {
+  background: rgba(20, 25, 45, 0.7);
+  border: 1px solid rgba(120, 150, 255, 0.15);
+  border-radius: 14px;
+  padding: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.screenshot-card:hover {
+  transform: translateY(-4px);
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.screenshot-card p {
+  font-size: 0.9rem;
+  color: #cfd6e4;
+}
 
 
