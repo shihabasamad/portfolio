@@ -1,1 +1,68 @@
-as
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SEO Audit Dashboard | Md Shihab As Samad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <header style="border-bottom:none; padding-bottom:10px;">
+      <div class="page-nav links">
+        <a href="../index.html">← Back to Home</a>
+        <a href="https://www.linkedin.com/in/shihab-as-samad-1507a317b" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/shihabasamad" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="mailto:shihabassamad@gmail.com">Email</a>
+      </div>
+    </header>
+
+    <section class="section" style="border-bottom:none;">
+      <h2>SEO Audit & Web Performance Dashboard</h2>
+
+      <div class="badges">
+        <span class="badge">Power BI</span>
+        <span class="badge">Screaming Frog</span>
+        <span class="badge">10K+ URLs</span>
+        <span class="badge">21% crawl waste</span>
+      </div>
+
+      <p class="subtitle" style="margin-top:12px;">
+        Built a Power BI dashboard from crawl data to track website health KPIs, identify crawl budget waste, and prioritise technical/content fixes to improve search visibility.
+      </p>
+
+      <h3 style="margin-top:18px;">Problem</h3>
+      <p class="subtitle">Website issues were reducing visibility and efficiency, but priority fixes were unclear without structured reporting.</p>
+
+      <h3 style="margin-top:14px;">Approach</h3>
+      <ul class="subtitle">
+        <li>Imported Screaming Frog crawl export and cleaned fields for analysis.</li>
+        <li>Created KPI views for indexability, metadata quality, content depth, and performance signals.</li>
+        <li>Built summary + drill-down pages to support prioritisation and action planning.</li>
+      </ul>
+
+      <h3 style="margin-top:14px;">Key Insights</h3>
+      <ul class="subtitle">
+        <li>Identified crawl budget waste and key indexability gaps affecting discoverability.</li>
+        <li>Flagged thin/duplicate content and missing metadata issues for fast wins.</li>
+        <li>Highlighted deep-page visibility limits impacting important pages.</li>
+      </ul>
+
+      <h3 style="margin-top:14px;">Screenshots</h3>
+      <div class="grid">
+        <!-- upload these later to /assets -->
+        <!-- <img src="../assets/seo_1.png" alt="SEO dashboard overview" /> -->
+        <!-- <img src="../assets/seo_2.png" alt="SEO dashboard details" /> -->
+      </div>
+    </section>
+
+    <footer>© <span id="year"></span> Md Shihab As Samad</footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
