@@ -389,11 +389,18 @@ footer{
   border-radius: 16px;
   padding: 1rem;
 }
+.screenshot-full img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
 
-.screenshot-full img {
+
+/* .screenshot-full img {
   width: 100%;
   border-radius: 12px;
-}
+} */
 
 .screenshot-full figcaption {
   margin-top: 0.6rem;
