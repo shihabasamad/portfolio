@@ -406,4 +406,27 @@ footer{
   color: #cfd6e4;
 }
 
+.project-nav {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.nav-label {
+  color: #9aa3b2;
+  font-size: 0.9rem;
+  margin-right: 0.3rem;
+}
+
+.pill-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pill-link:hover {
+  background: rgba(120, 150, 255, 0.18);
+  border-color: rgba(120, 150, 255, 0.6);
+}
 
