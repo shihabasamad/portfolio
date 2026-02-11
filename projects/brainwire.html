@@ -18,39 +18,66 @@
       <div class="project-nav">
         <span class="nav-label">Explore other projects:</span>
         <a href="seo.html" class="pill pill-nav">SEO Audit & Web Performance Dashboard</a>
-        <a href="ber.html" class="pill pill-nav">Building Energy Rating (BER) Analysis</a>
         <a href="irish-rail.html" class="pill pill-nav">Irish Rail Passenger Inquiry Reporting</a>
+        <a href="ber.html" class="pill pill-nav">Building Energy Rating (BER) Analysis</a>
       </div>
     </header>
 
     <section class="section" style="border-bottom:none;">
+
+      <!-- Title + GitHub button (same row) -->
       <div class="project-header">
         <h2 class="project-title">BrainWire – End-to-End Business Intelligence Dashboard (Power BI)</h2>
-
-        <!-- Replace with your BrainWire repo link -->
-        <a href="https://github.com/shihabasamad/BrainWire" target="_blank" class="pill pill-github">
+        <a
+          href="https://github.com/shihabasamad/BrainWire"
+          target="_blank"
+          class="pill pill-github"
+          rel="noopener"
+        >
           View Full Project on GitHub
         </a>
       </div>
 
-      <p class="subtitle" style="margin-top:12px;">
-        Complete Business Intelligence solution for <b>BrainWire</b>, an imaginary tech-product e-commerce company.
-        Dataset was synthetically generated in <b>Python</b> with realistic transactional, customer, marketing, and web behavior patterns.
-        Built in <b>Power BI</b> using star schema, DAX measures, KPI tracking, and multi-page executive dashboards.
-      </p>
-
+      <!-- Badges -->
       <div class="badges" style="margin-top:14px;">
         <span class="badge">Power BI</span>
         <span class="badge">DAX</span>
         <span class="badge">Power Query</span>
         <span class="badge">Python</span>
-        <span class="badge">Star Schema</span>
       </div>
 
-      <h3 style="margin-top:18px;">Interactive Report</h3>
-      <!-- Replace # with Power BI Service link (only if you have publish access) -->
-      <a href="#" target="_blank" class="pill-rgb">View Interactive Dashboard</a>
+      <!-- Intro -->
+      <p class="subtitle" style="margin-top:12px;">
+        Complete Business Intelligence solution for <b>BrainWire</b>, an imaginary tech-product e-commerce company.
+        The dataset was synthetically generated in <b>Python</b> with realistic transactional, customer, marketing, and web behavior patterns.
+        Built in <b>Power BI</b> using a star schema, DAX measures, KPI tracking, and multi-page executive dashboards.
+      </p>
 
+      <!-- Problem / Approach / Key Insights (keep only once) -->
+      <h3 style="margin-top:18px;">Problem</h3>
+      <p class="subtitle">
+        The business lacked a unified reporting layer to monitor revenue performance, customer value, marketing efficiency,
+        product profitability, and return behavior in a single structured decision-making environment.
+      </p>
+
+      <h3 style="margin-top:14px;">Approach</h3>
+      <ul class="subtitle">
+        <li>Designed and generated a realistic multi-table dataset in Python representing orders, returns, campaigns, customers, and web behavior.</li>
+        <li>Built a clean star-schema data model in Power BI with fact and dimension tables.</li>
+        <li>Developed DAX measures for revenue, CLV, ROI, return rate, RFM scoring, and engagement KPIs.</li>
+        <li>Created multi-page executive dashboards with drill-through, slicers, and cross-filtering for interactive analysis.</li>
+      </ul>
+
+      <h3 style="margin-top:14px;">Key Insights</h3>
+      <ul class="subtitle">
+        <li>Revenue peaked in 2021 before declining in 2023, indicating demand fluctuation and potential market saturation effects.</li>
+        <li>A small group of products drives a disproportionate share of revenue, highlighting dependency risk and pricing leverage opportunities.</li>
+        <li>Marketing ROI varies significantly by channel and month, showing uneven campaign efficiency.</li>
+        <li>High CLV segments (31–50 age group) demonstrate strong retention potential.</li>
+        <li>Return patterns suggest dissatisfaction and product defects as primary drivers, revealing quality and expectation gaps.</li>
+      </ul>
+
+      <!-- Data Model -->
       <h3 style="margin-top:18px;">Data Model</h3>
       <p class="subtitle">Star-schema architecture with fact and dimension tables.</p>
       <ul class="subtitle">
@@ -58,11 +85,20 @@
         <li><b>Dimensions:</b> Customers, Products, Campaigns, DateTable</li>
       </ul>
 
+      <!-- Interactive -->
+      <h3 style="margin-top:18px;">Interactive Report</h3>
+      <div class="interactive-placeholder">
+        <div class="placeholder-content">
+          <h3>Power BI Interactive Dashboard</h3>
+          <!-- Optional: replace this placeholder with an iframe later -->
+        </div>
+      </div>
+
+      <!-- Screenshots -->
       <section class="project-section">
         <h2>Screenshots</h2>
 
         <div class="screenshots-stack">
-          <!-- Replace these with your real image file names in /assets -->
           <figure class="screenshot-full">
             <img src="../assets/brainwire_model.png" alt="BrainWire Data Model" />
             <figcaption>Data Model (Star Schema)</figcaption>
@@ -99,17 +135,6 @@
           </figure>
         </div>
       </section>
-
-      <h3 style="margin-top:18px;">Key Insights</h3>
-      <ul class="subtitle">
-        <li>Revenue peaked in 2021 before declining in 2023, indicating demand fluctuation.</li>
-        <li>A small set of products drives a large share of total revenue.</li>
-        <li>Return rate is low overall but varies by category and product.</li>
-        <li>Marketing ROI fluctuates monthly, showing uneven campaign efficiency.</li>
-        <li>Bounce rate remains elevated across channels, suggesting UX opportunities.</li>
-        <li>RFM/CLV segments show strong retention potential in ages 31–50.</li>
-        <li>Returns are driven mainly by dissatisfaction and defects.</li>
-      </ul>
 
     </section>
   </div>
