@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BrainWire BI Dashboard | Md Shihab As Samad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <header style="border-bottom:none; padding-bottom:10px;">
+      <div class="page-nav links">
+        <a href="../index.html">← Back to Home</a>
+      </div>
+
+      <div class="project-nav">
+        <span class="nav-label">Explore other projects:</span>
+        <a href="seo.html" class="pill pill-nav">SEO Audit & Web Performance Dashboard</a>
+        <a href="ber.html" class="pill pill-nav">Building Energy Rating (BER) Analysis</a>
+        <a href="irish-rail.html" class="pill pill-nav">Irish Rail Passenger Inquiry Reporting</a>
+      </div>
+    </header>
+
+    <section class="section" style="border-bottom:none;">
+      <div class="project-header">
+        <h2 class="project-title">BrainWire – End-to-End Business Intelligence Dashboard (Power BI)</h2>
+
+        <!-- Replace with your BrainWire repo link -->
+        <a href="https://github.com/shihabasamad/BrainWire" target="_blank" class="pill pill-github">
+          View Full Project on GitHub
+        </a>
+      </div>
+
+      <p class="subtitle" style="margin-top:12px;">
+        Complete Business Intelligence solution for <b>BrainWire</b>, an imaginary tech-product e-commerce company.
+        Dataset was synthetically generated in <b>Python</b> with realistic transactional, customer, marketing, and web behavior patterns.
+        Built in <b>Power BI</b> using star schema, DAX measures, KPI tracking, and multi-page executive dashboards.
+      </p>
+
+      <div class="badges" style="margin-top:14px;">
+        <span class="badge">Power BI</span>
+        <span class="badge">DAX</span>
+        <span class="badge">Power Query</span>
+        <span class="badge">Python</span>
+        <span class="badge">Star Schema</span>
+      </div>
+
+      <h3 style="margin-top:18px;">Interactive Report</h3>
+      <!-- Replace # with Power BI Service link (only if you have publish access) -->
+      <a href="#" target="_blank" class="pill-rgb">View Interactive Dashboard</a>
+
+      <h3 style="margin-top:18px;">Data Model</h3>
+      <p class="subtitle">Star-schema architecture with fact and dimension tables.</p>
+      <ul class="subtitle">
+        <li><b>Fact:</b> Orders, Returns, CampaignResponses, WebBehavior</li>
+        <li><b>Dimensions:</b> Customers, Products, Campaigns, DateTable</li>
+      </ul>
+
+      <section class="project-section">
+        <h2>Screenshots</h2>
+
+        <div class="screenshots-stack">
+          <!-- Replace these with your real image file names in /assets -->
+          <figure class="screenshot-full">
+            <img src="../assets/brainwire_model.png" alt="BrainWire Data Model" />
+            <figcaption>Data Model (Star Schema)</figcaption>
+          </figure>
+
+          <figure class="screenshot-full">
+            <img src="../assets/brainwire_overview.png" alt="Overview Page" />
+            <figcaption>Overview (Executive Summary)</figcaption>
+          </figure>
+
+          <figure class="screenshot-full">
+            <img src="../assets/brainwire_customer.png" alt="Customer Intelligence Page" />
+            <figcaption>Customer Intelligence (CLV, RFM)</figcaption>
+          </figure>
+
+          <figure class="screenshot-full">
+            <img src="../assets/brainwire_product.png" alt="Product Performance Page" />
+            <figcaption>Product Performance</figcaption>
+          </figure>
+
+          <figure class="screenshot-full">
+            <img src="../assets/brainwire_marketing.png" alt="Marketing Performance Page" />
+            <figcaption>Marketing Campaign Performance</figcaption>
+          </figure>
+
+          <figure class="screenshot-full">
+            <img src="../assets/brainwire_web.png" alt="Web Behavior Page" />
+            <figcaption>Web Behavior & Engagement</figcaption>
+          </figure>
+
+          <figure class="screenshot-full">
+            <img src="../assets/brainwire_returns.png" alt="Returns Page" />
+            <figcaption>Returns & Customer Experience</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <h3 style="margin-top:18px;">Key Insights</h3>
+      <ul class="subtitle">
+        <li>Revenue peaked in 2021 before declining in 2023, indicating demand fluctuation.</li>
+        <li>A small set of products drives a large share of total revenue.</li>
+        <li>Return rate is low overall but varies by category and product.</li>
+        <li>Marketing ROI fluctuates monthly, showing uneven campaign efficiency.</li>
+        <li>Bounce rate remains elevated across channels, suggesting UX opportunities.</li>
+        <li>RFM/CLV segments show strong retention potential in ages 31–50.</li>
+        <li>Returns are driven mainly by dissatisfaction and defects.</li>
+      </ul>
+
+    </section>
+  </div>
+</body>
+</html>
